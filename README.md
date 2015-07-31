@@ -1,12 +1,12 @@
-# react-webpack-bolierplate
+# react-webpack-boilerplate
 
-A bolierplate of React and Webpack
+A boilerplate of React and Webpack
 
 ## Install
 
 ```bash
-$ git clone git@github.com:LingyuCoder/react-webpack-bolierplate.git
-$ cd react-webpack-bolierplate
+$ git clone git@github.com:LingyuCoder/react-webpack-boilerplate.git
+$ cd react-webpack-boilerplate
 $ npm install
 ```
 

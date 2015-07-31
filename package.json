@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-bolierplate",
+  "name": "react-webpack-boilerplate",
   "version": "0.0.2",
-  "description": "A react webpack bolierpate",
+  "description": "A react webpack boilerplate",
   "main": "src/index.js",
   "scripts": {
     "start": "node server.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LingyuCoder/react-webpack-bolierplate.git"
+    "url": "git+https://github.com/LingyuCoder/react-webpack-boilerplate.git"
   },
   "keywords": [
     "react",
@@ -35,7 +35,7 @@
     "webpack"
   ],
   "bugs": {
-    "url": "https://github.com/LingyuCoder/react-webpack-bolierplate/issues"
+    "url": "https://github.com/LingyuCoder/react-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/LingyuCoder/react-webpack-bolierplate#readme"
+  "homepage": "https://github.com/LingyuCoder/react-webpack-boilerplate#readme"
 }
