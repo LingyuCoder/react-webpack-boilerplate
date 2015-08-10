@@ -15,11 +15,11 @@
     "block-scoped-var": 0,
     "camelcase": 0,
     "curly": [
-      2,
+      0,
       "all"
     ],
     "eqeqeq": [
-      2
+      1
     ],
     "global-strict": [
       0,
@@ -27,10 +27,10 @@
     ],
     "guard-for-in": 0,
     "new-cap": 0,
-    "no-bitwise": 2,
-    "no-caller": 2,
+    "no-bitwise": 1,
+    "no-caller": 1,
     "no-cond-assign": [
-      2,
+      1,
       "except-parens"
     ],
     "no-empty": 2,
@@ -39,16 +39,16 @@
     "no-irregular-whitespace": 2,
     "no-iterator": 0,
     "no-new": 0,
-    "no-proto": 2,
+    "no-proto": 1,
     "no-redeclare": 0,
-    "no-sequences": 2,
-    "no-undef": 2,
-    "no-unused-vars": 2,
+    "no-sequences": 1,
+    "no-undef": 1,
+    "no-unused-vars": 1,
     "no-use-before-define": [
-      2,
+      1,
       "nofunc"
     ],
-    "no-with": 2,
+    "no-with": 1,
     "no-underscore-dangle": 0,
     "no-unused-expressions": 0,
     "comma-dangle": 0,
@@ -58,10 +58,10 @@
     "dot-notation": 0,
     "no-process-exit": 0,
     "quotes": [
-      2,
+      1,
       "single"
     ],
-    "strict": 2,
+    "strict": 0,
     "valid-typeof": 0,
     "wrap-iife": [
       0,

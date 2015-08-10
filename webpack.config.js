@@ -1,5 +1,11 @@
 var webpack = require('webpack');
 var path = require('path');
+var pkg = require('./package.json');
+var hots = [path.join(__dirname, 'src'), path.join(__dirname, 'demo')];
+if (pkg.dependencies)
+  for (var pack in pkg.dependencies) {
+    /^react-/.test(pack) && hots.push(path.join(__dirname, 'node_modules', pack));
+  }
 module.exports = {
   entry: {
     demo: [
@@ -14,13 +20,14 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
+    modulesDirectories: ['node_modules', './src'],
     extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [{
       test: /\.jsx?$/,
       loader: 'react-hot!babel',
-      include: [path.join(__dirname, 'src'), path.join(__dirname, 'demo')]
+      include: hots
     }, {
       test: /\.less$/,
       loader: 'style!css!autoprefixer!less'
