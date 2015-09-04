@@ -8,9 +8,16 @@
     "builtin": true,
     "es6": true
   },
-  "ecmaFeatures": {
-    "jsx": true
+  "globals": {
+    "React": true
   },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "plugins": [
+    "react"
+  ],
   "rules": {
     "block-scoped-var": 0,
     "camelcase": 0,
