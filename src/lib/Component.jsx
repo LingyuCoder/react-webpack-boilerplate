@@ -9,6 +9,9 @@ class NumberInput extends React.Component {
     max: React.PropTypes.number,
     min: React.PropTypes.number,
     onChange: React.PropTypes.func,
+		onDragEnd: React.PropTypes.func,
+		onDragMove: React.PropTypes.func,
+		onDragStart: React.PropTypes.func,
     step: React.PropTypes.number,
     value: React.PropTypes.number,
     width: React.PropTypes.number
